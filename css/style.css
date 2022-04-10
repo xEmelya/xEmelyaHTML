@@ -44,6 +44,12 @@ h1 {
     text-align: center;
 }
 
+.grid-item-title{
+  grid-area: a;
+  padding-right: 86px;
+  margin: 0;
+}
+
 .title-h2 span {
     display: block;
     font-size: 16px;
@@ -55,21 +61,19 @@ h1 {
 }
 
 .title-h2-40 {
-    font-size: 40px;
-    font-weight: 600px;
-    color: #192b59;
-    line-height: 1.2;
-    letter-spacing: -1.1px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #192b59;
+  letter-spacing: -1px;
+  line-height: 1.25;
 }
 
 .title-h2-40 span {
-    display: block;
-    font-size: 18px;
-    font-weight: 800px;
-    color: #1085e4;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 3.5px;
+  font-size: 14px;
+  font-weight: 800;
+  color: #1085e4;
+  text-transform: uppercase;
+  letter-spacing: 2.7px;
 }
 
 
@@ -265,51 +269,63 @@ h1 {
 
 .grid-item {
     text-align: center;
-    box-shadow: 0 0 5px #bfc4d3;
-    height: 280px;
-    padding: 50px 0 50px 0;
+    box-shadow: 5px 5px 5px #f4f4f4;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 10px;
+    height: 25em;
 }
 
 .grid-icon {
-    display: block;
-    margin: 0 auto;
-    background-repeat: no-repeat;
+  display: block;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-size: 73px 92px;
 }
 
-.grid-icon-1 {
-    background-image: url(../IMG/docum.png);
-    width: 55px;
-    height: 70px;
+.grid-tex<p{
+  color: blue;
 }
 
-.grid-icon-2 {
-    background-image: url(../IMG/nastroyki.png);
-    width: 73px;
-    height: 70px;
+.grid-item a:hover{
+  text-decoration: underline 2px;
 }
 
-.grid-icon-3 {
-    background-image: url(../IMG/TELEF.png);
-    width: 54px;
-    height: 71px;
+.grid-icon-1{
+  background-image: url(../img/grid-icon-1.png);
+  width: 73px;
+  height: 79px;
 }
 
-.grid-icon-4 {
-    background-image: url(../IMG/comp.png);
-    width: 70px;
-    height: 70px;
+.grid-icon-2{
+  background-image: url(../img/grid-icon-2.png);
+  width: 89px;
+  height: 85px;
 }
 
-.grid-icon-5 {
-    background-image: url(../IMG/ushi.png);
-    width: 74px;
-    height: 70px;
+.grid-icon-3{
+  background-image: url(../img/grid-icon-3.png);
+  width: 89px;
+  height: 85px;
 }
 
-.grid-icon-6 {
-    background-image: url(../IMG/shest.png);
-    width: 70px;
-    height: 70px;
+.grid-icon-4{
+  background-image: url(../img/grid-icon-4.png);
+  width: 89px;
+  height: 85px;
+}
+
+.grid-icon-5{
+  background-image: url(../img/grid-icon-5.png);
+  width: 89px;
+  height: 85px;
+}
+
+.grid-icon-6{
+  background-image: url(../img/grid-icon-6.png);
+  width: 89px;
+  height: 85px;
 }
 
 .grid {
@@ -317,6 +333,11 @@ h1 {
     grid-template-areas: "a b c" "d b c" "d e f" "g e f" "g h h";
     grid-gap: 35px;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 119px;
+    margin-bottom: 83px;
     
 }
 
@@ -325,32 +346,32 @@ h1 {
     grid-area: a;
 }
 
-.grid-item-1 {
-    grid-area: b;
+.grid-item-1{
+  grid-area: b;
 }
 
-.grid-item-2 {
-    grid-area: c;
+.grid-item-2{
+  grid-area: c;
 }
 
-.grid-item-3 {
-    grid-area: d;
+.grid-item-3{
+  grid-area: d;
 }
 
-.grid-item-4 {
-    grid-area: e;
+.grid-item-4{
+  grid-area: e;
 }
 
-.grid-item-5 {
-    grid-area: f;
+.grid-item-5{
+  grid-area: f;
 }
 
-.grid-item-6 {
-    grid-area: g;
+.grid-item-6{
+  grid-area: g;
 }
 
-.grid-text {
-    grid-area: h;
+.grid-text{
+  grid-area: h;
 }
 
 .grid h2 {
@@ -373,9 +394,13 @@ h1 {
 }
 
 .grid-item a {
-    font-size: 14px;
-    font-weight: 600;
-    color: #1085e4;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1085e4;
+  padding-bottom: 60px;
+  position: relative;
+  text-decoration: none;
 }
 
 
